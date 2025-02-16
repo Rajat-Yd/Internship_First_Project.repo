@@ -36,3 +36,34 @@ This project analyzes **Glassdoor job listings** to extract **key insights about
    ```bash
    git clone https://github.com/your-username/glassdoor-job-analysis.git
    cd glassdoor-job-analysis
+2. Install Dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+  - if using colab:
+     ```bash
+     !pip install pandas numpy seaborn matplotlib scipy scikit-learn
+3. Load the Dataset:
+   ```bash
+   from google.colab import drive
+   drive.mount('/content/drive')
+4. Run the Notebook:
+   ```bash
+   jupyter notebook
+5. Perform Data Wrangling
+      - Handle missing values and duplicates.
+      - Extract salary information.
+      - Split location into City and State.
+      - Convert founded year to company age.
+6. Explore Data visualization
+
+     - Use Seaborn & Matplotlib to generate insights:
+     - Salary Distribution Histogram → Understand salary spread.
+     - Salary vs. Rating Boxplot → Check if higher-rated companies pay more.
+     - Industry-wise Salary Trends → Identify top-paying sectors.
+     - Top Hiring Cities Bar Chart → Find job market hotspots.
+     - Correlation Heatmap → Analyze relationships between features.
+
+
+
+
