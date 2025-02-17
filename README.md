@@ -55,15 +55,22 @@ This project analyzes **Glassdoor job listings** to extract **key insights about
       - Extract salary information.
       - Split location into City and State.
       - Convert founded year to company age.
+        
 6. Explore Data visualization
-
      - Use Seaborn & Matplotlib to generate insights:
      - Salary Distribution Histogram → Understand salary spread.
      - Salary vs. Rating Boxplot → Check if higher-rated companies pay more.
      - Industry-wise Salary Trends → Identify top-paying sectors.
      - Top Hiring Cities Bar Chart → Find job market hotspots.
      - Correlation Heatmap → Analyze relationships between features.
-
-
-
-
+       
+7. Run Hypothesis Testing
+     - Apply statistical methods to validate key assumptions:
+     - T-Test: Do higher-rated companies pay better salaries?
+     - ANOVA: Does salary differ significantly across industries?
+     - Chi-Square Test: Check relationships between categorical variables.
+       
+8. Future Enhancements
+     - Develop salary prediction models using Machine Learning.
+     - Apply NLP on job descriptions to extract insights about in-demand skills.
+     - Automate data collection from job portals for real-time analysis.
